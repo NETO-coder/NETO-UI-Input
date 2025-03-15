@@ -1,0 +1,14 @@
+[Input-Neto-UI] {
+  width:70px;
+  border:3px solid black;
+  background-clip:padding-box;
+  transition:width 0.3s ease-in-out, border 0.3s ease-in-out;
+  background:black;
+  border-radius:10px;
+}
+[Input-Neto-UI]:focus {
+  width:200px;
+  outline:none;
+  border-image:linear-gradient(45deg,yellow,red,purple,pink,lightgreen,aqua,blue,magenta,orange,brown,blueviolet) 1;
+  background:white;
+}
